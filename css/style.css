@@ -68,3 +68,37 @@ h6 {
   float: left;
   position: relative;
 }
+
+/* LEFT SIDEBAR */
+.wrapper .leftpart {
+  width: 10%;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 12;
+  padding: 0px 100px;
+  background-color: #f8f3f5;
+}
+
+.wrapper .leftpart .menu ul {
+  margin: 0px;
+  list-style-type: none;
+}
+
+.wrapper .leftpart .menu ul li a {
+  text-decoration: none;
+  color: #767676;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.wrapper .leftpart .menu ul li a:hover {
+  color: #000;
+  letter-spacing: 2px;
+}
+
+.wrapper .leftpart .menu ul li.active a {
+  color: #000;
+  letter-spacing: 2px;
+}
