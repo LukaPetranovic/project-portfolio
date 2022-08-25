@@ -102,3 +102,13 @@ h6 {
   color: #000;
   letter-spacing: 2px;
 }
+
+/* RIGHT SIDEBAR */
+.wrapper .rightpart {
+  width: 100%;
+  min-height: 100vh;
+  float: left;
+  position: relative;
+  background-color: #f8f8f8;
+  padding-left: 450px;
+}
