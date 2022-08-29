@@ -5,7 +5,7 @@ html {
 }
 
 body {
-  font-family: "Jost", sans-serif;
+  font-family: "Cardo", serif;
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.5px;
@@ -38,7 +38,7 @@ h5,
 h6 {
   font-weight: 500;
   line-height: 1.4;
-  font-family: "Jost", sans-serif;
+  font-family: "Oswald", sans-serif;
   color: #000;
 }
 
@@ -111,6 +111,20 @@ h6 {
   position: relative;
   background-color: #f8f8f8;
   padding-left: 450px;
+}
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  clear: both;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.home .home_content {
+  display: flex;
+  align-items: center;
 }
 
 /*input {
